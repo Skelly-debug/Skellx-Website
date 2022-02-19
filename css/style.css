@@ -6,6 +6,21 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+html {
+    overflow:   scroll;
+  }
+  ::-webkit-scrollbar {
+      width: 0px;
+      height: 0px;
+      background: #bbbbbb;  
+}
 header{
     width: 100%;
     height: 90px;
