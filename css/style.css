@@ -248,6 +248,17 @@ body {
   color: #ffffff;
 }
 
+#cloud2 {
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 80px;
+    content: '';
+    opacity: 1;
+    position: relative;
+    padding-bottom: 10em;
+    margin-left: -11em;
+    color: #000000;
+  }
+
 #btnScrollToTop {
     position: fixed;
     right: 10px;
