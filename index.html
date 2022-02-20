@@ -7,10 +7,11 @@
       <meta name="descryption" content="Test Website">
       <meta name="keywords" content="website, Test">
       <link rel="stylesheet" href="/css/style.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <link rel="icon" href="images/Skellx Logo removebg.png" type="image/x-icon">
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <script type="text/javascript" src="https://leaverou.github.io/prefixfree/prefixfree.min.js"></script>
       <script src="main.js"></script>
       <script>customScroll();</script>
@@ -30,7 +31,6 @@
 <body id="body">
 <div class="custom_scroll">
   <div id="scroll_block" class="scroll_block"></div>
-
   <header>
     <a href="/index.html"><img class="Logo" src="/images/Skellx Logo removebg.png" alt="HomePage" width="50px" height="50px"></a>
     <div class="Logo-fluid"></div>
@@ -58,7 +58,18 @@
     kai psomi me araka</p>
     <div style="text-align: center;"></div>
   </section>
-  <section class="Test">
+  <section>
+    <button id="btnScrollToTop">
+      <span class="material-icons">arrow_upward</span>
+    </button>
+    <script>
+      const btnScrollToTop = document.querySelector("#btnScrollToTop")
+
+  btnScrollToTop.addEventListener("click", function() {
+      $("html, body").animate({ scrollTop: 0}, "slow")
+      })
+
+    </script>
   </section>
   <footer class="footer">
     <div class="container">
