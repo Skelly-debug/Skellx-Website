@@ -242,21 +242,25 @@ body {
   font-size: 80px;
   content: '';
   opacity: 1;
-  position: relative;
-  padding-bottom: 10em;
-  margin-left: -11em;
+  width: 100%;
+  position: absolute;
+  top: 80;
+  left: 20;
+  display: flex;
   color: #ffffff;
 } 
 
 #cloud2 {
-    font-family: 'Open Sans', 'sans-serif';
-    font-size: 80px;
-    content: '';
-    opacity: 1;
-    position: relative;
-    padding-bottom: 10em;
-    margin-left: -11em;
-    color: #ffffff;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 80px;
+  content: '';
+  opacity: 1;
+  width: 100%;
+  position: absolute;
+  top: 80;
+  left: 0;
+  display: flex;
+  color: #000000;
   }
 
 #btnScrollToTop {
