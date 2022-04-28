@@ -16,31 +16,13 @@
       <script src="main.js"></script>
       <script>customScroll();</script>
 
-  <style>
-    body {
-      background-image: url(/images/RGB\ ring.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      background-color: #000000;
-    }  
-    @media(max-width: 574px){
-    body{
-      background-image: url(/images/RGB\ Ring\ for\ mobile.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      background-color: #000000;
-    }
-    }
-</style>
-
 </head>
 <body id="body">
 <div class="custom_scroll">
   <div id="scroll_block" class="scroll_block"></div>
+
+<section class="Section1">
+
   <header>
     <a href="/index.html"><img class="Logo" src="/images/Skellx Logo removebg.png" alt="HomePage" width="50px" height="50px"></a>
     <div class="Logo-fluid"></div>
@@ -55,75 +37,85 @@
       </ul>
       </div>
   </header>
+
   <hr color="purple">
-<section>
-    <h1 style="color:white;">When Life gives you Lemons, squeeze them in your eyes!</h1>
-    <a href="https://www.speedtest.net/" target="_blank"><img src="images/unnamed.png" alt="speedtest" width="30" height="30"></a>
-    <br><br><br>
-    <p style="color:white;  text-align: center;">makaronia me patates</br> 
+
+<div class="text-box">
+  <h1>When Life gives you Lemons, squeeze them in your eyes!</h1>
+  <br>
+    <p>makaronia me patates</br> 
      kai salami me kima...</br> 
      me salata apo agouria </br>
-    kai psomi me araka</p>
-    <div style="text-align: center;"></div>
-</section>
-<section>
-    <button id="btnScrollToTop">
-      <span class="material-icons">arrow_upward</span>
-    </button>
-    <script>
-      const btnScrollToTop = document.querySelector("#btnScrollToTop")
+     kai psomi me araka</p>
+     <a href="" class="hero-btn">Click here for more</a>
+  </div>
 
+</section>
+
+<section class="Section2">
+  <h1>Test Title goes here</h1>
+  <p>Test paragraph goes here...</p>
+</section>
+
+
+<button id="btnScrollToTop">
+  <span class="material-icons">arrow_upward</span>
+</button>
+
+<script>
+const btnScrollToTop = document.querySelector("#btnScrollToTop")
   btnScrollToTop.addEventListener("click", function() {
-      $("html, body").animate({ scrollTop: 0}, "slow")
-      })
+    $("html, body").animate({ scrollTop: 0}, "slow")
+  })
+</script>
 
-    </script>
-</section>
-  <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="footer-col">
-          <h4>Company</h4>
-          <ul>
-            <li><a href="/pages/About.html">About Us</a></li>
-            <li><a href="/pages/info.html">Our Services</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Affiliate Program</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Get Help</h4>
-          <ul>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Forums</a></li>
-            <li><a href="#">Shipping</a></li>
-            <li><a href="#">Returns</a></li>
-            <li><a href="#">Order Status</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>online shop</h4>
-          <ul>
-            <li><a href="#">Footwear</a></li>
-            <li><a href="#">T-shirts</a></li>
-            <li><a href="#">Hoodies</a></li>
-            <li><a href="#">Pants</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>follow us</h4>
-            <div class="social-links">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fas fa-envelope"></i></a>
-            </div>
-        </div>
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/pages/About.html">About Us</a></li>
+          <li><a href="/pages/info.html">Our Services</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Affiliate Program</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get Help</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Forums</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Order Status</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>online shop</h4>
+        <ul>
+          <li><a href="#">Footwear</a></li>
+          <li><a href="#">T-shirts</a></li>
+          <li><a href="#">Hoodies</a></li>
+          <li><a href="#">Pants</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+          </div>
       </div>
     </div>
-    <div class="Copyright">
-      <p>©️ Copyright 2022 Skellx™️</p>
-    </div>
-  </footer>
+  </div>
+
+  <div class="Copyright">
+    <p>©️ Copyright 2022 Skellx™️</p>
+  </div>
+
+</footer>
 </body>
 </html>
