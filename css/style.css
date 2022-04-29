@@ -132,11 +132,6 @@ header{
     background-size: cover;
     position: relative;
 }
-@media (max-width: 700px) {
-    .Section1{
-        background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(/images/RGB\ Ring\ for\ mobile.jpg);;
-    }
-}
 .text-box{
     width: 90%;
     color: #fff;
