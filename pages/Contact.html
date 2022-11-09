@@ -11,20 +11,11 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <script type="text/javascript" src="https://leaverou.github.io/prefixfree/prefixfree.min.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
       <script src="../JavaScript/main.js"></script>
       <script>customScroll();</script>
   </head>
-<style>
-body {
-  background-image: url(/images/Neon\ car\ Bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #000000;
-}
-</style>
-</head>
 <body>
   <header>
     <a href="/index.html"><img class="Logo" src="../images/Skellx Logo removebg.png" alt="HomePage" width="40px" height="40px"></a>
@@ -34,18 +25,24 @@ body {
       <div class="nav">
       <ul>
         <li><a href="/pages/About.html">About</a></li>
+        <li><a href="/pages/Contact.html">Contact</a></li>
         <li><a href="/pages/info.html">Information</a></li>
         <li><a href="/pages/Service.html">Service</a></li>
-        <li><a href="/pages/Contact.html">Contact</a></li>
+        
       </ul>
     </div>
         </header>
         <hr color="purple">
-        <div class="container">
-          <div id="cloud">Contact</div>
+
+        <section class="ContactLand">
+          <div class="cnt-text-box">
+            <h1>Contact us via email or by clicking the button below</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, dignissimos.</p>
+            <a href="/pages/About.html" class="hero-btn">Click here for more</a>
         </div>
-        <br><br><br><br><br><br><br><br>
-<section>
+          
+        </section>
+
   <button id="btnScrollToTop">
     <span class="material-icons">arrow_upward</span>
   </button>
@@ -56,7 +53,6 @@ body {
       })
  
   </script>
-</section>
 <footer class="footer">
   <div class="container">
     <div class="row">
@@ -91,17 +87,19 @@ body {
       <div class="footer-col">
         <h4>follow us</h4>
           <div class="social-links">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fas fa-envelope"></i></a>
+            <a href="#" style="position: center;"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#" style="position: center;"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#" style="position: center;"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#" style="position: center;"><ion-icon name="mail-outline"></ion-icon></a>
           </div>
       </div>
     </div>
   </div>
+
   <div class="Copyright">
     <p>©️ Copyright 2022 Skellx™️</p>
   </div>
-  </footer>
-    </body>
+
+</footer>
+</body>
 </html>

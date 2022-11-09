@@ -5,7 +5,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="descryption" content="Test Website">
-      <meta name="keywords" content="website, Test">
+      <meta name="keywords" content="website, Test, Skellx, Skelly">
       <link rel="stylesheet" href="/css/style.css">
       <link rel="icon" href="images/Skellx Logo removebg.png" type="image/x-icon">
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -13,6 +13,8 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <script type="text/javascript" src="https://leaverou.github.io/prefixfree/prefixfree.min.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
       <script src="main.js"></script>
       <script>customScroll();</script>
 </head>
@@ -20,7 +22,7 @@
 <div class="custom_scroll">
   <div id="scroll_block" class="scroll_block"></div>
 
-<section class="Section1">
+<section class="IndexSection1">
 
   <header>
     <a href="/index.html"><img class="Logo" src="/images/Skellx Logo removebg.png" alt="HomePage" width="50px" height="50px"></a>
@@ -30,19 +32,24 @@
       <div class="nav">
       <ul>
         <li><a href="/pages/About.html">About</a></li>
+        <li><a href="/pages/Contact.html">Contact</a></li>
         <li><a href="/pages/info.html">Information</a></li>
         <li><a href="/pages/Service.html">Service</a></li>
-        <li><a href="/pages/Contact.html">Contact</a></li>
+        
       </ul>
       </div>
   </header>
 
   <hr color="purple">
 
-<div class="text-box">
+<div class="indx-text-box">
   <h1>When Life gives you Lemons, squeeze them in your eyes!</h1>
-  <br>
     <p>Keep in mind this is not a real website and it wont be used as one</p>
+    <!-- Original text -->
+      <!-- <p>makaronia me patates
+      kai salami me kima...
+      me salata apo agouria
+      kai psomi me araka</p> -->
      <a href="/pages/About.html" class="hero-btn">Click here for more</a>
   </div>
 
@@ -81,11 +88,13 @@
   <h1>Some of our Products</h1>
   <p>This is a test description...</p>
 
-  <!-- <div class="card"> 
-    <h2 class="card-title">Something awesome</h2>
-    <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+<div class="card"> 
+  <div class="card-content">
+    <h2 class="card-title" style="color: white;">Something awesome</h2>
+    <p class="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel inventore dicta corporis doloremque iste fugiat voluptatem ad neque quam, sed obcaecati, vitae totam exercitationem.</p>
     <a href="" class="button">Learn More</a>
-  </div> -->
+  </div>
+</div>
 
 </section>
 
@@ -135,10 +144,10 @@ const btnScrollToTop = document.querySelector("#btnScrollToTop")
       <div class="footer-col">
         <h4>follow us</h4>
           <div class="social-links">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fas fa-envelope"></i></a>
+            <a href="#" style="position: center;"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#" style="position: center;"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#" style="position: center;"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#" style="position: center;"><ion-icon name="mail-outline"></ion-icon></a>
           </div>
       </div>
     </div>

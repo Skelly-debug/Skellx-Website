@@ -10,19 +10,10 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <script type="text/javascript" src="https://leaverou.github.io/prefixfree/prefixfree.min.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
       <script src="../JavaScript/main.js"></script>
       <script>customScroll();</script>
-  </head>
-  <style>
-    body {
-      background-image: url(https://images4.alphacoders.com/910/910602.png);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: auto;
-      background-color: #000000;
-    }
-  </style>
   </head>
   <body id="body">
   <header>
@@ -33,17 +24,21 @@
       <div class="nav">
       <ul>
         <li><a href="/pages/About.html">About</a></li>
+        <li><a href="/pages/Contact.html">Contact</a></li>
         <li><a href="/pages/info.html">Information</a></li>
         <li><a href="/pages/Service.html">Service</a></li>
-        <li><a href="/pages/Contact.html">Contact</a></li>
+        
       </ul>
     </div>
   </header>
-<hr color="purple">
-    <div class="container">
-      <div id="cloud">About Us</div>
+    <hr color="purple">
+
+  <section class="AboutUsLand">
+    <div class="abt-text-box">
+      <h1>Some things about us...</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, dignissimos.</p>
     </div>
-<section>
+  </section>
   <button id="btnScrollToTop">
     <span class="material-icons">arrow_upward</span>
   </button>
@@ -54,7 +49,6 @@
       })
  
   </script>
-</section>
 <footer class="footer">
   <div class="container">
     <div class="row">
@@ -89,17 +83,19 @@
       <div class="footer-col">
         <h4>follow us</h4>
           <div class="social-links">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fas fa-envelope"></i></a>
+            <a href="#" style="position: center;"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#" style="position: center;"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#" style="position: center;"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#" style="position: center;"><ion-icon name="mail-outline"></ion-icon></a>
           </div>
       </div>
     </div>
   </div>
+
   <div class="Copyright">
     <p>©️ Copyright 2022 Skellx™️</p>
   </div>
-  </footer>
+
+</footer>
 </body>
 </html>
